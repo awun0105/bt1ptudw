@@ -1,0 +1,39 @@
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+li {
+    color: rgb(1, 15, 145);
+    font-size: larger;
+}
+
+li a:first-child {
+    font-weight: 600;
+}
+
+h1 ~ a{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(148, 7, 7);
+    text-transform: uppercase;
+}
+
+img {
+    object-fit: cover;
+}
+
+div.imgreal:hover {
+    border: 1px solid #777;
+}
+
+div.imgreal img {
+    width: 420px;
+    height: 600px;
+}
+
+div {
+    font-weight: 600;
+    font-size: larger;
+}
