@@ -2,39 +2,45 @@
 <html>
       <head>
             <title>PTUDW</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="icon" type="image/x-con" href="./images/favicon.ico">
             <link rel="stylesheet" href="./default.css">
       </head>
       <body>
-            <h1>Group PTUDW</h1>
-            <h3>Member list: </h3>
-            <ol>
-                  <li>Name: Nguyen Quang Thuan
-                        <br>MSSV: 19127571
-                  </li>
-                  <li>Name: Quach Do Gia Huy
-                        <br>MSSV: 20127401
-                  </li>
-                  <li>Name: Lam Quang Anh Quan
-                        <br>MSSV: 20127291
-                  </li>
-            </ol>
-            <h2>Image Maps</h2>
-            <h3>Group image: </h3>
-            <p style="text-align:center;"><span class="use">Click on people to go to a new page and
-                        read more
-                        about the topic</span></p>
-            <img src="./images/team.jpg" alt="anh nhom" usemap="#teamimage" width="2560"
-                  height="2560">
-
-
-            <map name="teamimage">
-                  <area shape="rect" coords="1674, 1773, 1781, 2099" alt="Thuan"
-                        href="./member/19127571/19127571.html">
-                  <area shape="rect" coords="548, 554, 666, 1161" alt="Quan"
-                        href="./member/20127291/20127291.htm">
-                  <area shape="rect" coords="1835,93,2277,1308" alt="Huy"
-                        href="./member/20127401/20127401.htm">
-            </map>
+            <div class="header"><h1>Group PTUDW NoName</h1></div>
+            <div class="topnav">
+                  <a href="member/19127571/19127571.htm">19127571</a>
+                  <a href="member/20127291/20127291.htm">20127291</a>
+                  <a href="member/20127401/20127401.htm">20127401</a>
+            </div>
+            <div class="card">
+                  <div class="cardlabel"><h2>Member list</h2></div>
+                  <div class="cardcontent">
+                        <ol>
+                        <li><label>Name:</label> Nguyen Quang Thuan
+                        <br><label>MSSV:</label> 19127571
+                        </li>
+                        <li><label>Name:</label> Quach Do Gia Huy
+                        <br><label>MSSV:</label> 20127401
+                        </li>
+                        <li><label>Name:</label> Lam Quang Anh Quan
+                        <br><label>MSSV:</label> 20127291
+                        </li>
+                        </ol>
+                  </div>
+            </div>
+            <div class="card">
+                  <div class="cardlabel"><h2>Group image </h2></div>
+                  <div class="note">Click on people to go to a new page andread moreabout the topic</div>
+                  <div class="teamimg">
+                  <img src="./images/team.jpg" alt="anh nhom" usemap="#teamimage" >
+                  <map name="teamimage">
+                        <area shape="rect" coords="1233,610,1311,850" alt="Thuan"href="./member/19127571/19127571.htm">
+                        <area shape="rect" coords="324, 203, 568, 812" alt="Quan" href="./member/20127291/20127291.htm">
+                        <area shape="rect" coords="1345,31,1719,901" alt="Huy" href="./member/20127401/20127401.htm">
+                  </map>
+                  </div>
+            </div>
       </body>
 </html>

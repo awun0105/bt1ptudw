@@ -1,5 +1,129 @@
+*
+{
+    box-sizing:border-box;
+}
+body
+{
+    font-family: Arial;
+    padding:10px;
+    background:#f1f1f1;
+}
+/*style header*/
+.header
+{
+    padding:30px;
+    text-align:center;
+    background:white;
+}
+.header h1
+{
+    font-size:50px;;
+}
+/*style top navigation bar*/
+.topnav 
+{
+    overflow:hidden;
+    background-color:black;
+}
+.topnav a{
+    float:left;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover{
+    background-color:lightgray;
+    color:black;
+}
+/*Image */
+.teamimg img
+{
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.stuImg img 
+{
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+/* Clear floats after the columns */
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+/*create two unequal colums float next to each other*/
+.leftcol
+{
+    float:left;
+    width:40%;
+}
+.rightcol
+{
+    float:right;
+    width: 60%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}
+/*card label*/
+div.cardlabel h2
+{
+    text-align: center;
+}
+div.cardlabel h3
+{
+    text-align: center;
+}
+/*card content*/
+div.cardcontent
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.cardcontent a{
+    text-decoration: none;
+}
+.cardcontent a:hover {
+    color: red;
+}
+.cardcontent label {
+    font-weight: bold;
+}
+.note {
+    font-style: italic;
+    text-align:center;
+    font-size: 17px;
+}
+.goBack {
+    display: block;
+    color: blue;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
 h1 {
     text-align: center;
+    font-size: 35px;
+    margin-top: 40px;
+    
+}
+h2 {
+    margin-top: 28px;
+    font-size:30px
 }
 h3 {
     font-size: 23px;
@@ -11,60 +135,4 @@ ol li {
     margin-block: 12px;
 }
 
-h2 {
-    margin-top: 28px;
-}
 
-.use {
-    font-style: italic;
-}
-
-.stu {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-h1 {
-    font-size: 35px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.stuInf {
-    margin-right: 60px;
-    margin-top: 45px;
-}
-
-.stuInf a {
-    text-decoration: none;
-}
-
-.goBack {
-    display: block;
-    color: blue;
-    font-size: 28px;
-    margin-top: 30px;
-}
-
-.stuInf a:hover {
-    color: red;
-}
-
-.stuInf label {
-    font-weight: bold;
-}
-
-.stuInf p {
-    font-size: 23px;
-}
-
-.stuImg h3 {
-    margin-top: 20px;
-    font-size: 25px;
-    margin-bottom: 24px;
-}
-
-.stuImg img {
-    object-fit: cover;
-}
